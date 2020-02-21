@@ -1,0 +1,13 @@
+[gd_scene load_steps=2 format=2]
+
+[sub_resource type="CircleShape2D" id=1]
+radius = 5.0
+
+[node name="StringNode" type="RigidBody2D"]
+position = Vector2( 0, -0.176971 )
+collision_layer = 0
+collision_mask = 0
+mass = 0.1
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource( 1 )
